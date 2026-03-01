@@ -31,26 +31,49 @@ Projekt pokazuje praktyczne wykorzystanie ML w aplikacji użytkowej oraz umieję
 
 ## Zrzuty ekranu
 
-Menu główne
-![Ekran startowy aplikacji z dostępem do wszystkich funkcji: dodawania wniosku, wyświetlania drzewa decyzyjnego, metryk oraz ważności cech.](images/gui.PNG)
+### Menu główne
 
-Formularz wprowadzania danych
-![Widok formularza, w którym użytkownik wpisuje dane finansowe klienta, aby sprawdzić decyzję kredytową.](images/writing_data.PNG)
+![Menu główne - GUI](images/gui.PNG)
+*Ekran startowy aplikacji z dostępem do wszystkich funkcji: dodawania wniosku, wyświetlania drzewa decyzyjnego, metryk oraz ważności cech.*
 
-Decyzja pozytywna – przyznanie kredytu
-![Okno dialogowe informujące, że na podstawie podanych danych model przyznał kredyt.](images/positive.PNG)
 
-Decyzja negatywna – odrzucenie wniosku
-![Okno dialogowe informujące, że model odrzucił wniosek kredytowy.](images/negative.PNG)
+### Formularz wprowadzania danych
 
-Drzewo decyzyjne
-![Wizualizacja drzewa decyzyjnego używanego do klasyfikacji wniosków kredytowych.](images/tree.PNG)
+![Formularz](images/writing_data.PNG)
+*Widok formularza, w którym użytkownik wpisuje dane finansowe klienta, aby sprawdzić decyzję kredytową.*
 
-Ważność cech (feature importance)
-![Wykres przedstawiający wpływ poszczególnych cech na decyzję modelu.]("images/importance.PNG")
 
-Metryki jakości modelu oraz macierz konfuzji
-![Zestawienie accuracy, precision, recall, F1-score oraz macierzy konfuzji dla aktualnego modelu.](images/metrics.PNG)
+### Decyzja pozytywna – przyznanie kredytu
+
+![Decyzja pozytywna](images/positive.PNG)
+*Okno dialogowe informujące, że na podstawie podanych danych model przyznał kredyt.*
+
+
+### Decyzja negatywna – odrzucenie wniosku
+
+![Decyzja negatywna](images/negative.PNG)
+*Okno dialogowe informujące, że model odrzucił wniosek kredytowy.*
+
+
+### Drzewo decyzyjne
+
+![Drzewo decyzyjne](images/tree.PNG)
+*Wizualizacja drzewa decyzyjnego używanego do klasyfikacji wniosków kredytowych.*
+
+
+### Ważność cech (feature importance)
+
+![feature importance](images/importance.PNG)
+*Wykres przedstawiający wpływ poszczególnych cech na decyzję modelu.*
+
+
+### Metryki jakości modelu oraz macierz konfuzji
+
+![Metryki](images/metrics.PNG)
+*Zestawienie accuracy, precision, recall, F1-score oraz macierzy konfuzji dla aktualnego modelu.*
+
+
+---
 
 ## Funkcjonalności aplikacji
 
