@@ -1,10 +1,10 @@
-# System wspomagania decyzji kredytowej (Python + ML)
+## System wspomagania decyzji kredytowej (Python + ML)
 
 Aplikacja desktopowa wykorzystująca **uczenie maszynowe (Decision Tree)** do oceny wniosków kredytowych. Projekt łączy **Python**, **scikit‑learn**, **pandas**, **matplotlib** oraz **GUI w ttkbootstrap**. System umożliwia predykcję decyzji kredytowej, wizualizację modelu oraz analizę jakości i ważności cech.
 
 ---
 
-#Cel projektu
+## Cel projektu
 
 Celem projektu jest stworzenie kompletnego narzędzia do wspomagania decyzji kredytowych, które:
 
@@ -18,7 +18,7 @@ Projekt pokazuje praktyczne wykorzystanie ML w aplikacji użytkowej oraz umieję
 
 ---
 
-#Technologie
+## Technologie
 
 - **Python 3**
 - **scikit-learn** – model ML (DecisionTreeClassifier)
@@ -52,7 +52,7 @@ Ważność cech (feature importance)
 Metryki jakości modelu oraz macierz konfuzji
 ![Zestawienie accuracy, precision, recall, F1-score oraz macierzy konfuzji dla aktualnego modelu.](images/metrics.PNG)
 
-#Funkcjonalności aplikacji
+## Funkcjonalności aplikacji
 
 - Formularz do wprowadzania danych klienta.
 - Predykcja decyzji kredytowej (TAK/NIE).
@@ -66,7 +66,7 @@ Metryki jakości modelu oraz macierz konfuzji
 
 ---
 
-#Dane wejściowe
+## Dane wejściowe
 
 Aplikacja korzysta z pliku:
 
@@ -90,7 +90,7 @@ Wymagane kolumny:
 
 ---
 
-#Model ML
+## Model ML
 
 Model: **DecisionTreeClassifier**
 
@@ -106,7 +106,7 @@ Model jest trenowany:
 
 ---
 
-#Uruchomienie
+## Uruchomienie
 
 Instalacja zależności:
 
@@ -122,7 +122,7 @@ python main.py
 
 ---
 
-#Struktura projektu
+## Struktura projektu
 
 - `main.py` – logika aplikacji + GUI  
 - `credit_data_synthetic.csv` – dane treningowe i nowe przypadki  
