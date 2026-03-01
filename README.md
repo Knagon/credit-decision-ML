@@ -47,7 +47,7 @@ Drzewo decyzyjne
 ![Wizualizacja drzewa decyzyjnego używanego do klasyfikacji wniosków kredytowych.](images/tree.PNG)
 
 Ważność cech (feature importance)
-![Wykres przedstawiający wpływ poszczególnych cech na decyzję modelu.]("images/feature_importance.PNG")
+![Wykres przedstawiający wpływ poszczególnych cech na decyzję modelu.]("images/importance.PNG")
 
 Metryki jakości modelu oraz macierz konfuzji
 ![Zestawienie accuracy, precision, recall, F1-score oraz macierzy konfuzji dla aktualnego modelu.](images/metrics.PNG)
