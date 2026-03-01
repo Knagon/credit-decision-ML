@@ -29,6 +29,29 @@ Projekt pokazuje praktyczne wykorzystanie ML w aplikacji użytkowej oraz umieję
 
 ---
 
+## Zrzuty ekranu
+
+Menu główne
+![Ekran startowy aplikacji z dostępem do wszystkich funkcji: dodawania wniosku, wyświetlania drzewa decyzyjnego, metryk oraz ważności cech.](images/gui.PNG)
+
+Formularz wprowadzania danych
+![Widok formularza, w którym użytkownik wpisuje dane finansowe klienta, aby sprawdzić decyzję kredytową.](images/writing_data.PNG)
+
+Decyzja pozytywna – przyznanie kredytu
+![Okno dialogowe informujące, że na podstawie podanych danych model przyznał kredyt.](images/positive.PNG)
+
+Decyzja negatywna – odrzucenie wniosku
+![Okno dialogowe informujące, że model odrzucił wniosek kredytowy.](images/negative.PNG)
+
+Drzewo decyzyjne
+![Wizualizacja drzewa decyzyjnego używanego do klasyfikacji wniosków kredytowych.](images/tree.PNG)
+
+Ważność cech (feature importance)
+![Wykres przedstawiający wpływ poszczególnych cech na decyzję modelu.]("images/feature_importance.PNG")
+
+Metryki jakości modelu oraz macierz konfuzji
+![Zestawienie accuracy, precision, recall, F1-score oraz macierzy konfuzji dla aktualnego modelu.](images/metrics.PNG)
+
 #Funkcjonalności aplikacji
 
 - Formularz do wprowadzania danych klienta.
