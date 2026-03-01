@@ -41,6 +41,7 @@ Projekt pokazuje praktyczne wykorzystanie ML w aplikacji użytkowej oraz umieję
   - ważności cech.
 - Interfejs w stylu *darkly* (ttkbootstrap).
 
+---
 
 #Dane wejściowe
 
@@ -49,6 +50,7 @@ Aplikacja korzysta z pliku:
 ```
 credit_data_synthetic.csv
 ```
+
 
 Wymagane kolumny:
 
@@ -63,6 +65,7 @@ Wymagane kolumny:
 - rata_do_dochodu  
 - decyzja (0/1)
 
+---
 
 #Model ML
 
@@ -78,6 +81,7 @@ Model jest trenowany:
 - przy starcie aplikacji,
 - po każdym dodaniu nowego wniosku.
 
+---
 
 #Uruchomienie
 
@@ -93,6 +97,7 @@ Start aplikacji:
 python main.py
 ```
 
+---
 
 #Struktura projektu
 
